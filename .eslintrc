@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true,
+    "mocha": false
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "modules": true,
+    "spread": true,
+    "globalReturn": true
+  },
+  "rules": {
+    "semi": ["warn", "never"],
+    "no-unexpected-multiline": "error"
+  }
+}
